@@ -1,5 +1,9 @@
 # ggplot theme for publication ready Plots
- 
+
+## Updated 7/30/2022 to fix the random error: 
+` Error in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y,  : polygon edge not found`
+
+## Original Readme:
 A ggplot theme which creates clean and simple graphics for plotting.
 
 ggplot2 by [Hadley](https://github.com/hadley) is a very good package for data visualization in R. However the default plots made by the package requires some formatting before we can send them for publication. The package called [ggthemes](https://github.com/jrnold/ggthemes) was written by [Jeffrey](https://github.com/jrnold) for this purpose and provides some excellent themes. But I want to try myself and improvise on the this. So, I have written my own theme (ofcourse with the help of in-built functions from ggthemes thanks to Jeffrey). My main problems with the aesthetics of default ggplot are
