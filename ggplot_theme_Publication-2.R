@@ -1,6 +1,6 @@
 
 
-theme_Publication <- function(base_size=14, base_family="sans") {
+theme_Publication <- function(base_size=14, base_family="Helvetica") {
       library(grid)
       library(ggthemes)
       (theme_foundation(base_size=base_size, base_family=base_family)
@@ -48,7 +48,7 @@ scale_colour_Publication <- function(...){
 
 ### Dark theme for ggplot plots
 
-theme_dark_grey <- function(base_size=14, base_family="sans") {
+theme_dark_grey <- function(base_size=14, base_family="Helvetica") {
    library(grid)
    library(ggthemes)
    (theme_foundation(base_size=base_size, base_family=base_family)
@@ -129,7 +129,7 @@ scale_colour_Publication_dark <- function(...){
 #       ))
 # }
 
-theme_dark_blue <- function(base_size=14, base_family="sans") {
+theme_dark_blue <- function(base_size=14, base_family="Helvetica") {
    library(grid)
    library(ggthemes)
    (theme_foundation(base_size=base_size, base_family=base_family)
