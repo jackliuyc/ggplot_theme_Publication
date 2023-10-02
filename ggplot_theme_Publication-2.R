@@ -7,7 +7,6 @@ theme_Publication <- function(base_size=14, base_family="Arial") {
       + theme(plot.title = element_text(face = "bold",
                                         size = rel(1), hjust = 0.5, margin = margin(0,0,10,0)),
               text = element_text(),
-              strip.background = element_blank(), 
               panel.background = element_rect(colour = NA),
               plot.background = element_rect(colour = NA),
               panel.border = element_rect(colour = NA),
@@ -27,7 +26,7 @@ theme_Publication <- function(base_size=14, base_family="Arial") {
               legend.key.size= unit(0.5, "cm"),
               legend.title = element_text(face="plain"),
               plot.margin=unit(c(10,5,5,5),"mm"),
-              strip.background=element_rect(colour="#f0f0f0",fill="#f0f0f0"),
+              strip.background= element_blank(), #element_rect(colour="#f0f0f0",fill="#f0f0f0"),
               strip.text = element_text(face="bold")
       ))
    
