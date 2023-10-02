@@ -7,6 +7,7 @@ theme_Publication <- function(base_size=14, base_family="Arial") {
       + theme(plot.title = element_text(face = "bold",
                                         size = rel(1), hjust = 0.5, margin = margin(0,0,10,0)),
               text = element_text(),
+              strip.background = element_blank(), 
               panel.background = element_rect(colour = NA),
               plot.background = element_rect(colour = NA),
               panel.border = element_rect(colour = NA),
